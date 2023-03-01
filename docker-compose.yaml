@@ -1,0 +1,7 @@
+version: "3"
+services:
+  website:
+    image: nginx
+    ports:
+      - "1884:80"
+    restart: always
