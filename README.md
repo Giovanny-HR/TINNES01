@@ -94,50 +94,62 @@ server.listen(port, () => {
  ```
 
 # Setting git with SSH
-## Step 1
+```
+cd ~/.ssh && ssh-keygen
+sudo apt install xclip
+cat id_rsa.pub | xclip (Linux)
+Get-Content id_rsa.pub | Set-Clipboard (Powershell)
+```
+Verify your connection by typing
+```
+ssh -T git@github.com
+> Hi username! You've successfully authenticated...
 ```
 
+# NPM Chat-Web Application
 ```
-## Step 2
-```
-cd ~/.ssh
-```
-If terminal displays `bash: cd: ./ssh "No file or directory"` you should generate a public/private key continue to "step 3". If the terminal changes to `~/.ssh directory` continue to step 5
-## Step 3
-```
-ssh-keygen -t rsa -C "your_email@youremail.com"
-```
-## Step 4
-```
-Enter a suitable passphrase > 4
-```
-## Step 5
-Follow this step pnly if your terminal changed to `~/.ssh`
-```
-mkdir key_backup
-cd key_backup
-rm id_rsa*
-```
-## Step 6
-Add the SSH-key to github
-```
-sudo apt install gedit
-gedit id_rsa.pub
-```
-## Step 7
-Ubuntu will open a file, copy it's entire content
-```
-1. open the github site and login
-2. Go to "Account Settings" ( in the upper right corner from your page)
-3. Click "SSH Keys"
-4. Click : "Add another public key"
-5. Paste the copied content ino the "key field" and press "Add key"
-```
-## Step 8
-```
-ssh-add
-```
-## Step 2
+npm inistall
+npm install ws
 ```
 
+# Mosquitto
+Docker-Compose Mosquitto
+```
+mosquitto:
+    image: eclipse-mosquitto
+    container_name: mosquitto
+    volumes:
+      - /opt/mosquitto:/mosquitto
+      - /opt/mosquitto/data:/mosquitto/data
+      - /opt/mosquitto/log:/mosquitto/log
+    ports:
+      - 1883:1883
+      - 9001:9001
+```
+ `mosquitto.conf`
+ ```
+persistence true
+persistence_location /mosquitto/data/
+
+log_dest stdout
+log_dest file /mosquitto/log/mosquitto.log
+log_type warning
+log_timestamp true
+connection_messages true
+
+listener 1883
+
+## Authentication ##
+#allow_anonymous false
+#password_file /mosquitto/config/password.txt
+```
+`mosquitto.conf` + Authentication
+```
+persistence true
+persistence_location /mosquitto/data/
+log_dest file /mosquitto/log/mosquitto.log
+listener 1883
+
+## Authentication ##
+allow_anonymous true
 ```

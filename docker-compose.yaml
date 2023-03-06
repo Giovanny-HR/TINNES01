@@ -5,3 +5,14 @@ services:
     ports:
       - "1884:80"
     restart: always
+  
+  mosquitto:
+    image: eclipse-mosquitto
+    container_name: mosquitto
+    volumes:
+      - /netwerk1/mosquitto:/mosquitto
+      - /netwerk1/mosquitto/data:/mosquitto/data
+      - /netwerk1/mosquitto/log:/mosquitto/log
+    ports:
+      - 1883:1883
+      - 9001:9001
