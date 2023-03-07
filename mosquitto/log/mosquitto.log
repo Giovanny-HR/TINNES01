@@ -1,0 +1,103 @@
+1678179721: mosquitto version 2.0.15 starting
+1678179721: Config loaded from /mosquitto/config/mosquitto.conf.
+1678179721: Opening ipv4 listen socket on port 1883.
+1678179721: Opening ipv6 listen socket on port 1883.
+1678179721: mosquitto version 2.0.15 running
+1678180826: New connection from 172.19.0.1:38876 on port 1883.
+1678180826: New client connected from 172.19.0.1:38876 as mqtt-explorer-1791b563 (p2, c1, k60).
+1678180839: Client mqtt-explorer-1791b563 disconnected.
+1678180846: New connection from 172.19.0.1:38878 on port 1883.
+1678180846: New client connected from 172.19.0.1:38878 as mqtt-explorer-1791b563 (p2, c1, k60).
+1678180858: Client mqtt-explorer-1791b563 disconnected.
+1678180863: New connection from 172.19.0.1:38882 on port 1883.
+1678180863: New client connected from 172.19.0.1:38882 as mqtt-explorer-1791b563 (p2, c1, k60).
+1678180891: Client mqtt-explorer-1791b563 disconnected.
+1678181154: New connection from 172.19.0.1:38884 on port 1883.
+1678181154: New client connected from 172.19.0.1:38884 as mqtt-explorer-1791b563 (p2, c1, k60).
+1678181522: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1678182248: Client mqtt-explorer-1791b563 disconnected.
+1678182277: New connection from 172.19.0.1:39886 on port 1883.
+1678182277: New client connected from 172.19.0.1:39886 as mqtt-explorer-1791b563 (p2, c1, k60).
+1678183323: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1678183700: mosquitto version 2.0.15 terminating
+1678183700: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1678183703: mosquitto version 2.0.15 starting
+1678183703: Config loaded from /mosquitto/config/mosquitto.conf.
+1678183703: Opening ipv4 listen socket on port 1883.
+1678183703: Opening ipv6 listen socket on port 1883.
+1678183703: mosquitto version 2.0.15 running
+1678183704: New connection from 172.19.0.1:42712 on port 1883.
+1678183704: New client connected from 172.19.0.1:42712 as mqtt-explorer-1791b563 (p2, c1, k60).
+1678187179: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1678188980: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1678190781: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1678192582: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1678194072: Client mqtt-explorer-1791b563 disconnected.
+1678194075: New connection from 172.19.0.1:45042 on port 1883.
+1678194075: New client connected from 172.19.0.1:45042 as mqtt-explorer-1791b563 (p2, c1, k60).
+1678194142: Client mqtt-explorer-1791b563 disconnected.
+1678194677: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1678195393: New connection from 172.19.0.1:45126 on port 1883.
+1678195393: New connection from 172.19.0.1:45128 on port 1883.
+1678195393: Client <unknown> disconnected due to malformed packet.
+1678195393: Client <unknown> disconnected due to malformed packet.
+1678195393: New connection from 172.19.0.1:45132 on port 1883.
+1678195393: Client <unknown> disconnected due to malformed packet.
+1678195394: New connection from 172.19.0.1:45138 on port 1883.
+1678195394: New connection from 172.19.0.1:45140 on port 1883.
+1678195394: Client <unknown> disconnected due to malformed packet.
+1678195394: Client <unknown> disconnected due to malformed packet.
+1678195394: New connection from 172.19.0.1:45144 on port 1883.
+1678195394: Client <unknown> disconnected due to malformed packet.
+1678195395: New connection from 172.19.0.1:45150 on port 1883.
+1678195395: New connection from 172.19.0.1:45152 on port 1883.
+1678195395: Client <unknown> disconnected due to malformed packet.
+1678195395: Client <unknown> disconnected due to malformed packet.
+1678195395: New connection from 172.19.0.1:45156 on port 1883.
+1678195395: Client <unknown> disconnected due to malformed packet.
+1678195400: New connection from 172.19.0.1:45160 on port 1883.
+1678195400: New connection from 172.19.0.1:45164 on port 1883.
+1678195400: Client <unknown> disconnected due to malformed packet.
+1678195401: Client <unknown> disconnected due to malformed packet.
+1678195401: New connection from 172.19.0.1:45168 on port 1883.
+1678195401: Client <unknown> disconnected due to malformed packet.
+1678195431: New connection from 172.19.0.1:45174 on port 1883.
+1678195431: Client <unknown> disconnected due to malformed packet.
+1678195431: New connection from 172.19.0.1:45178 on port 1883.
+1678195431: Client <unknown> disconnected due to malformed packet.
+1678195431: New connection from 172.19.0.1:45182 on port 1883.
+1678195431: Client <unknown> disconnected due to malformed packet.
+1678195491: New connection from 172.19.0.1:45188 on port 1883.
+1678195491: Client <unknown> disconnected due to malformed packet.
+1678195491: New connection from 172.19.0.1:45190 on port 1883.
+1678195491: Client <unknown> disconnected due to malformed packet.
+1678195491: New connection from 172.19.0.1:45194 on port 1883.
+1678195491: Client <unknown> disconnected due to malformed packet.
+1678195580: mosquitto version 2.0.15 terminating
+1678195580: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1678195582: mosquitto version 2.0.15 starting
+1678195582: Config loaded from /mosquitto/config/mosquitto.conf.
+1678195582: Opening ipv4 listen socket on port 1883.
+1678195582: Opening ipv6 listen socket on port 1883.
+1678195582: mosquitto version 2.0.15 running
+1678195723: mosquitto version 2.0.15 terminating
+1678195723: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1678195725: mosquitto version 2.0.15 starting
+1678195725: Config loaded from /mosquitto/config/mosquitto.conf.
+1678195725: Opening ipv4 listen socket on port 1883.
+1678195725: Opening ipv6 listen socket on port 1883.
+1678195725: mosquitto version 2.0.15 running
+1678195726: New connection from 172.19.0.1:45318 on port 1883.
+1678195726: New client connected from 172.19.0.1:45318 as mqtt-explorer-1791b563 (p2, c1, k60).
+1678195918: Client mqtt-explorer-1791b563 disconnected.
+1678195946: New connection from 172.19.0.1:45342 on port 1883.
+1678195946: New client connected from 172.19.0.1:45342 as mqtt-explorer-1791b563 (p2, c1, k60).
+1678195948: Client mqtt-explorer-1791b563 disconnected.
+1678197526: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1678198056: New connection from 172.19.0.1:45390 on port 1883.
+1678198056: New client connected from 172.19.0.1:45390 as mqttjs_598147f3 (p2, c1, k60).
+1678198056: Client mqttjs_598147f3 disconnected.
+1678198069: New connection from 172.19.0.1:45394 on port 1883.
+1678198069: New client connected from 172.19.0.1:45394 as mqtt-explorer-1791b563 (p2, c1, k60).
+1678198072: Client mqtt-explorer-1791b563 disconnected.
+1678199327: Saving in-memory database to /mosquitto/data//mosquitto.db.

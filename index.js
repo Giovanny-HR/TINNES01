@@ -15,7 +15,7 @@ const https = require('https');
 const { Socket } = require('socket.io');
 const server = https.createServer({ key, cert }, app);
 
-const { Server } = requre("socket.io");
+const { Server } = require("socket.io");
 const io = new Server(server);
 
 io.on('connection', (socket) => {

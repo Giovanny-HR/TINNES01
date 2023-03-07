@@ -25,7 +25,7 @@ mkdir [name]
 cd [name]
 mkdir CA
 cd CA
-opnessl genrsa -out CA.key -des3 2048
+openssl genrsa -out CA.key -des3 2048
 ```
 Generate a root CA certificate using the key generated, that will be valid for ten years
 ```
@@ -126,6 +126,33 @@ mosquitto:
       - 1883:1883
       - 9001:9001
 ```
+`docker-mosquitto v2`
+```
+version: "3"
+services:
+  website:
+    image: nginx
+    ports:
+      - "1884:80"
+    restart: always
+
+  mosquitto:
+    image: eclipse-mosquitto:2
+    volumes:
+      - ./mosquitto/config:/moquitto/config
+      - ./mosquitto/data:/mosquitto/data
+    networks:
+      - mosquitto
+    ports:
+      - 1883:1883
+      - 8883:8883
+      - 9001:9001
+
+networks:
+  mosquitto:
+    name: mosquitto
+    driver: bridge
+```
  `mosquitto.conf`
  ```
 persistence true
@@ -153,3 +180,10 @@ listener 1883
 ## Authentication ##
 allow_anonymous true
 ```
+
+# MQTT 
+```
+npm i mqtt -g
+mqtt help
+
+``` 
